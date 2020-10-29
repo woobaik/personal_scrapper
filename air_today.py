@@ -4,7 +4,7 @@ from bs4 import BeautifulSoup
 
 session = HTMLSession()
 
-url = "https://www.airnow.gov/?city=San%20Francisco&state=CA&country=USA"
+url = "https://www.airnow.gov/?city=Daly%20City&state=CA&country=USA"
 
 
 r = session.get(url)
