@@ -30,7 +30,8 @@ search_box = WebDriverWait(driver, 30).until(
 )
 
 
-bj_array = ['하한국영', 'monov', '해범', 's2apple', '혀니츄', '커맨더지코', '자대광']
+bj_array = ['하한국영', 'monov', '해범', 's2apple',
+            '혀니츄', '커맨더지코', '자대광', ]
 bj_hash = []
 
 
