@@ -13,5 +13,6 @@ r.html.render(sleep=1, keep_page=True, scrolldown=1)
 
 aqis = r.html.find('.pollutant-info-heading')
 
+result = []
 for aqi in aqis:
-    print(aqi.text, end="\n \n \n")
+    result.append(aqi.text)
