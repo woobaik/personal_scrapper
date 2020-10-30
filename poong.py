@@ -5,7 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.chrome.options import Options
 
 
-driver_path = "d:\\download\chromedriver.exe"
+driver_path = "d:\\download\\chromedriver.exe"
 
 
 chrome_options = Options()
