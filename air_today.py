@@ -14,3 +14,8 @@ aqis = r.html.find('.pollutant-info-heading')
 result = []
 for aqi in aqis:
     result.append(aqi.text)
+print("=======================================================")
+for row in result:
+    new_row = row.split('\n')
+    print(f"Currently, {new_row[0]} is {new_row[1]}, which is {new_row[2]}.")
+print("=======================================================")
